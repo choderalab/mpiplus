@@ -1,0 +1,11 @@
+name: mpiplus 
+channels:
+    - omnia
+dependencies:
+    - python
+    - openmm >=7.2
+    - numpy
+    - scipy
+    - numpydoc
+    - netCDF4
+    - pyyaml
