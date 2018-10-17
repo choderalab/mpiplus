@@ -1,7 +1,7 @@
 mpiplus
 ==============================
 [//]: # (Badges)
-[![Travis Build Status](https://travis-ci.org/REPLACE_WITH_OWNER_ACCOUNT/mpiplus.png)](https://travis-ci.org/choderalab/mpiplus)
+[![Travis Build Status](https://travis-ci.org/choderalab/mpiplus.svg?branch=master)](https://travis-ci.org/choderalab/mpiplus)
 [![Documentation Status](https://readthedocs.org/projects/mpiplus/badge/?version=latest)](https://mpiplus.readthedocs.io/en/latest/?badge=latest)
 <!--
 disabling codecov badge during setup
