@@ -1,5 +1,5 @@
 .. _API_mpi:
 
-.. automodule:: yank.mpi
+.. automodule:: mpiplus
    :members:
    :inherited-members:

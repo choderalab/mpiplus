@@ -1,20 +1,31 @@
-.. mpiplus documentation master file, created by
-   sphinx-quickstart on Thu Mar 15 13:55:56 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+#########
++MPIPLUS+
+#########
 
-Welcome to mpiplus's documentation!
-=========================================================
+.. TODO: Standardize this tagline
+
+**A GPU-accelerated Python framework for exploring algorithms for alchemical free energy calculations**
+
+.. TODO: Refine this description
+
+
+
+API Reference
+-------------
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+
+   api/index
 
 
+--------------------------------------------------------------------------------
 
-Indices and tables
-==================
+.. raw:: html
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   </div>
+
+License
+-------
++mpiplus+ is licensed under the MIT License.
+See the `LICENSE` file distributed with +mpiplus+ for more details.

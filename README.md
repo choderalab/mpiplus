@@ -7,10 +7,12 @@ mpiplus
 disabling codecov badge during setup
 -[![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/mpiplus/branch/master/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/mpiplus/branch/master)--->
 
-MPIPLUS
-=======
+++MPIPLUS++
+===========
 
 Utilities to run on MPI.
+
+Adapted from Yank.mpi
 
 ### Copyright
 
