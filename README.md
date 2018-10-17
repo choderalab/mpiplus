@@ -1,8 +1,13 @@
 mpiplus
 ==============================
 [//]: # (Badges)
-[![Travis Build Status](https://travis-ci.org/REPLACE_WITH_OWNER_ACCOUNT/mpiplus.png)](https://travis-ci.org/REPLACE_WITH_OWNER_ACCOUNT/mpiplus)
-[![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/mpiplus/branch/master/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/mpiplus/branch/master)
+[![Travis Build Status](https://travis-ci.org/REPLACE_WITH_OWNER_ACCOUNT/mpiplus.png)](https://travis-ci.org/choderalab/mpiplus)
+<!--
+disabling codecov badge during setup
+-[![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/mpiplus/branch/master/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/mpiplus/branch/master)--->
+
+MPIPLUS
+=======
 
 Utilities to run on MPI.
 
