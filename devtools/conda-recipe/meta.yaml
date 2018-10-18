@@ -12,6 +12,8 @@ requirements:
   host:
     - python
     - setuptools
+    - coverage>=4.4
+    - openmm>=7.1
 
   run:
     - python
