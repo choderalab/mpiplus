@@ -1,6 +1,6 @@
 .. _mpi:
 
-+MPIPLUS+
+mpi
 ************
 
 mpiplus
