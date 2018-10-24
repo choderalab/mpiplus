@@ -1,4 +1,4 @@
-.. _API_mpi:
+.. _mpi:
 
 .. automodule:: mpiplus.mpiplus
    :members:

@@ -10,17 +10,16 @@
 
 
 
-API Reference
+Installation
 -------------
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 
 
    installation
-   changelog
 
-API Reference
+Modules
 -------------
 
 .. toctree::
