@@ -1,5 +1,5 @@
 .. _API_mpi:
 
-.. automodule:: mpiplus
+.. automodule:: mpiplus.mpiplus
    :members:
    :inherited-members:

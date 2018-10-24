@@ -14,10 +14,20 @@ API Reference
 -------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
+   :caption: Contents:
 
-   mpi_api 
+   installation
+   changelog
 
+API Reference
+-------------
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Modules:
+
+    mpi
 
 --------------------------------------------------------------------------------
 
