@@ -9,8 +9,8 @@ Installing via `conda`
 mpiplus is not currently available via `conda`
 
 
-Development build
------------------
+Development Build
+======================
 
 The development build of `mpiplus` is available on ``github``
 
