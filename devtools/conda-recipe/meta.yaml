@@ -17,6 +17,7 @@ requirements:
   run:
     - python
     - numpy >=1.11
+    - mpi4py
 
 test:
   requires:
