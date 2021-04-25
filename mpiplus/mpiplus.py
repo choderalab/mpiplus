@@ -436,11 +436,12 @@ def distribute(task, distributed_args, *other_args, send_results_to='all',
         to be distributed must the the first one.
     distributed_args : iterable
         The sequence of the parameters to distribute among nodes.
-    send_results_to : int, 'all', or None, optional
+    send_results_to : int, 'all', or None, optional, default='all'
         If the string 'all', the result will be sent to all nodes. If an
         int, the result will be send only to the node with rank ``send_results_to``.
-        The return value of distribute depends on the value of this parameter
-        (default is None).
+        If None no result will be sent to any other node
+        (This is useful if the distributed function is a routine).
+        The return value of distribute depends on the value of this parameter.
     propagate_exceptions_to : 'all', 'group', or None, optional
         When one of the processes raise an exception during the task execution,
         this controls which other processes raise it (default is 'all'). This
