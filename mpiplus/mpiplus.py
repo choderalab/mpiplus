@@ -47,6 +47,7 @@ import logging
 import os
 import sys
 import signal
+import warnings
 from contextlib import contextmanager
 from traceback import format_exception
 
@@ -110,6 +111,15 @@ def get_mpicomm():
         if var in os.environ:
             use_mpi = True
             break
+
+    # Now we check if mpi4py is installed and warn users if we think they want to use mpi
+    # but they don't have mpi4py installed
+    try:
+        import mpi4py
+    except ImportError:
+        if use_mpi:
+            warnings.warn("mpirun environment variables detected, but mpi4py is not installed.")
+        use_mpi = False
 
     # Return None if we are not running on MPI.
     if not use_mpi:
