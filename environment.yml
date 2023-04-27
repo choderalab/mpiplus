@@ -1,0 +1,12 @@
+name: mpiplus
+channels:
+  - conda-forge
+dependencies:
+  - mpi4py
+  - numpy >=1.11
+  - python
+  # testing
+  - coverage
+  - pytest
+  - pytest-cov
+  - pytest-xdist
