@@ -6,7 +6,8 @@ Installation
 Installing via `conda`
 ======================
 
-mpiplus is not currently available via `conda`
+.. code-block:: bash
+   $ conda install -c conda-forge mpiplus
 
 
 Development Build
