@@ -88,11 +88,11 @@ jobs:
           python -c "import mpiplus; print(f'{mpiplus.__version__=}')"
 
       - name: Run tests
-      # Use isolated directory and --import-mode=importlib to avoid hiding
-      # packing bugs by running in checked out repo
-      working-directory: /tmp
-      run: |
-        pytest --import-mode=importlib -v --color=yes --durations=10 $GITHUB_WORKSPACE/mpiplus/tests/
+        # Use isolated directory and --import-mode=importlib to avoid hiding
+        # packing bugs by running in checked out repo
+        working-directory: /tmp
+        run: |
+          pytest --import-mode=importlib -v --color=yes --durations=10 $GITHUB_WORKSPACE/mpiplus/tests/
 
   publish:
     name: Publish to PyPI
