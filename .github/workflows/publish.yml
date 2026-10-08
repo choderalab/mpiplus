@@ -80,8 +80,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install built wheel
-        run: python -m pip install dist/*.whl[dev]
+      - name: Install built wheel with dev dependencies
+        shell: bash
+        run: |
+          shopt -s nullglob
+          wheels=(dist/*.whl)
+          if (( ${#wheels[@]} != 1 )); then
+            echo "Expected exactly one wheel, found ${#wheels[@]}"
+            exit 1
+          fi
+          python -m pip install "${wheels[0]}[dev]"
 
       - name: Run import and version tests
         run: |
