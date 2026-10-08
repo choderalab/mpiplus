@@ -3,6 +3,12 @@
 Installation
 ************
 
+Installing via `pip`
+===================
+
+.. code-block:: bash
+   $ pip install mpiplus
+
 Installing via `conda`
 ======================
 
