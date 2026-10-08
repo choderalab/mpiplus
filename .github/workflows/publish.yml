@@ -98,9 +98,21 @@ jobs:
           fi
           python -m pip install "${wheels[0]}[dev]"
 
-      - name: Run import and version tests
+      - name: Verify installed wheel version
+        working-directory: /tmp
         run: |
-          python -c "import mpiplus; print(f'{mpiplus.__version__=}')"
+          python - <<'PY'
+          import mpiplus
+          from importlib.metadata import version
+
+          installed_version = version("mpiplus")
+
+          print(f"Package path: {mpiplus.__file__}")
+          print(f"Module version: {mpiplus.__version__}")
+          print(f"Installed version: {installed_version}")
+
+          assert mpiplus.__version__ == installed_version
+          PY
 
       - name: Run tests
         # Use isolated directory and --import-mode=importlib to avoid hiding
